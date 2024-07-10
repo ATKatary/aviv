@@ -1,3 +1,6 @@
+worlds:
+  world:
+    generator: VoidWorldGenerator
 settings:
   allow-end: true
   warn-on-overload: true
