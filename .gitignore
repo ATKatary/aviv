@@ -128,3 +128,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+server/apache-maven-3.9.6 
+server/BuildData
+server/Bukkit
+server/bundler 
+server/CraftBukkit
+server/logs 
+server/Spigot
+server/work
+server/usercache.json 
