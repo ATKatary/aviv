@@ -63,3 +63,10 @@ def validate_date(date):
         return datetime(1950, 1, 1).date() < date < datetime.now().date()
     except ValidationError as error: print(f"Invalid date {date}\n{report(error)}")
 
+def format(format, variables):
+    result = ""
+    for part in format: 
+        if part.startswith("!"):
+            result += f"{variables[part[1:]]}"
+        else: result += part
+    return result 
