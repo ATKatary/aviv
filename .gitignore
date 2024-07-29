@@ -138,3 +138,5 @@ server/logs
 server/Spigot
 server/work
 server/usercache.json 
+
+.creds/
