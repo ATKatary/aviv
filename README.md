@@ -62,16 +62,19 @@ The admin panel allows fine-grained control over AI prompt generation
     each element can be text of a variable<br>
     variables are demarked by a `!` before the variable name<br>
     #### example 
-    prompt: "Generate a !reaction.name response based on the past !config.past_events_size from the following !past_events"<br>
-    format: [
-    *   "Generate a",<br>
-        "!reaction.name",<br>
-        "response based on the past",<br>
-        "!config.past_events_size",<br>
-        "from the following",<br>
-        "!past_events"<br>
-
-    ]<br><br>
+    **prompt** `Generate a !reaction.name response based on the past !config.past_events_size from the following !past_events`<br>
+    
+    **format** 
+    ````
+    [
+        "Generate a",
+        "!reaction.name",
+        "response based on the past",
+        "!config.past_events_size",
+        "from the following",
+        "!past_events"
+    ]
+    ````
 
     The possible prompt variables are:
     - `role.name`
@@ -127,15 +130,18 @@ The admin panel allows fine-grained control over AI prompt generation
     each element can be text of a variable<br>
     variables are demarked by a `!` before the variable name<br>
     #### example 
-    event format: "!event.user has !event.cash on him right now and the following items: !event.inventory"<br>
-    format: [<br>
-    *  "!event.user",<br>
-        "has",<br>
-        "!event.cash",<br>
-        "on him right now and the following items:",<br>
-        "!event.inventory"<br>
-
-    ]<br><br>
+    **event format** "!event.user has !event.cash on him right now and the following items: !event.inventory"<br>
+    
+    **format** 
+    ````
+    [
+        "!event.user",
+        "has",
+        "!event.cash",
+        "on him right now and the following items:",
+        "!event.inventory"
+    ]
+    ````
 
     The possible event variables are:
     - `event.cash`
@@ -152,16 +158,24 @@ The admin panel allows fine-grained control over AI prompt generation
 
 #### Notes
 Whenever you are creating a format a space is added by default between each element, so there is no need to worry about spaces between elements.<br>
-**Example 1:**<br>
-- format: [
-    *   "Generate a",<br>
-        "!reaction.name"<br>
+##### Example 1
+**format**
+````
+[
+    "Generate a",
+    "!reaction.name"
 ]
-- prompt: "Generate a !reaction.name
+````
 
-**Example 1:**<br>
-- format: [
-    *   "Generate a ",<br>
-        "!reaction.name"<br>
+**prompt** Generate a !reaction.name
+
+##### Example 2
+**format**
+````
+[
+    "Generate a ",
+    "!reaction.name"
 ]
-- prompt: "Generate a  !reaction.name"
+````
+
+**prompt** Generate a  !reaction.name
