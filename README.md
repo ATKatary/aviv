@@ -158,6 +158,7 @@ The admin panel allows fine-grained control over AI prompt generation
 
 #### Notes
 Whenever you are creating a format a space is added by default between each element, so there is no need to worry about spaces between elements.<br>
+`_` is used to indicate a space
 ##### Example 1
 **format**
 ````
@@ -167,7 +168,7 @@ Whenever you are creating a format a space is added by default between each elem
 ]
 ````
 
-**prompt** Generate a !reaction.name
+**prompt** Generate a_!reaction.name
 
 ##### Example 2
 **format**
@@ -178,4 +179,4 @@ Whenever you are creating a format a space is added by default between each elem
 ]
 ````
 
-**prompt** Generate a  !reaction.name
+**prompt** Generate a__!reaction.name
