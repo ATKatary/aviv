@@ -130,7 +130,7 @@ The admin panel allows fine-grained control over AI prompt generation
     each element can be text of a variable<br>
     variables are demarked by a `!` before the variable name<br>
     #### example 
-    **event format** "!event.user has !event.cash on him right now and the following items: !event.inventory"<br>
+    **event format** `!event.user has !event.cash on him right now and the following items: !event.inventory`<br>
     
     **format** 
     ````
