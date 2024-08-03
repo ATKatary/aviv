@@ -15,8 +15,10 @@ To start the MC server execute the following
 cd ~/aviv/server 
 ./start
 ````
+The server will start at **ip** `198.74.62.72`
 
 ## Admin Panel 
+Url: https://fabhous.com/api/aviv/admin<br>
 The admin panel allows fine-grained control over AI prompt generation
 <br>It is composed of the following models 
 
