@@ -5,9 +5,9 @@ The objective of vampires is to kill the survivors (after which they turn to vam
 The objective of survivors is to survive 20 waves (nights)<br>
 
 ### Commands 
-`/vampirez create <name>` - creates a new game `<name>`<br><br>
-`/vampirez join <name>` - joins a new game `<name>`<br><br>
-`/vampirez ai <reaction> <role>` - generates an ai response with `<reaction>` and `<role>` <br>
+`/vampire create <name>` - creates a new game `<name>`<br><br>
+`/vampire join <name>` - joins a new game `<name>`<br><br>
+`/vampire ai <reaction> <role>` - generates an ai response with `<reaction>` and `<role>` <br>
 
 ### Starting server 
 To start the MC server execute the following 
